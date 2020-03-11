@@ -1,0 +1,79 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)and (max-width: 767px) {
+	.container{width:580px;}
+	.logo {width: 100%;text-align: center;}
+	.main_menu {float: left;}
+	#nav li {margin-right: 5px;}
+	#nav li a {padding: 6px 10px;}
+	#nav li:hover a{padding:5px 9px;}
+	#nav li a.active{padding:5px 9px;}
+	.slider_area {background-size: cover;}
+	.single_slide {width: 90%;}
+	.single_team img {width: 100%;height:218px;}
+	.overlay ul li {width: 25px;font-size: 20px;}	
+	.member_info {margin-right: 0;margin-top: 217px;}
+	.member_info h3 {font-size: 12px;}
+	.member_info p {font-size: 13px;}
+	.portfolio {display: block;}
+	.single_portfolio {width: 50%;float: left;}
+	.single_portfolio img {width: 100%;}
+	.overlay_portfolio {width: 100%;}
+	.upper {width: 100%;}
+	.single_service {width: 46%;}
+	.fetures {display: block;}
+	.single_features {text-align: center;}
+	.single_features p {width: 100%;text-align: left;margin-bottom: 30px;}
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)and (max-width: 991px) {
+	.container{width:760px;}
+	.logo {margin-right: 40px;}
+	.main_menu {float: left;}
+	#nav li {margin-right: 5px;}
+	#nav li a {padding: 6px 10px;}
+	#nav li:hover a{padding:5px 9px;}
+	#nav li a.active{padding:5px 9px;}
+	.slider_area {background-size:contain;}
+	.slides {height: 265px;}
+	.single_slide {margin-top: 5px;margin-left:40px;}
+	.single_slide h1 {font-size: 24px;}
+	.single_slide p {width: 60%;letter-spacing: 0px;}
+	.area_header {padding-top: 50px;}
+	.social_links ul li i {padding: 18px;}
+	.single_team img {width: 100%;height:218px;}
+	.overlay ul li {width: 30px;}
+	.member_info {margin-right: 0;margin-top: 217px;}
+	.portfolio {display: block;}
+	.single_portfolio {width: 50%;float: left;}
+	.single_portfolio img {width: 100%;}
+	.overlay_portfolio {width: 100%;}
+	.upper {width: 100%;}
+	.single_service {width: 45%;margin-right: 20px;}
+	.single_features {margin-right: 10px;padding: 5px;}
+	.single_features img{width:100%;}
+	.single_features h3 {font-size: 15px;}
+	.single_features p {line-height: 16px;}
+	.contact_left {margin-left: 20px;}
+	.copy_right {margin-left: 20px;}
+	.social {margin-right: 20px;}
+	
+  
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .work_link ul {width: 65%;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}
